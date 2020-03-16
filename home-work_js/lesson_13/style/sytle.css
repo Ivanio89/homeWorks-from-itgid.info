@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  width: 1000px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+input {
+  margin: 10px;
+}
+
+input[type="range"] {
+  margin-bottom: 50px;
+}
+
+.text-answer {
+  margin-top: -240px;
+  color: red;
+}
+
+.answer-here {
+  margin-top: 240px;
+}

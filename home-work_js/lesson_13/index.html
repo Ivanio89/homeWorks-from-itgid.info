@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/sytle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="section">
+      <h1>task 1.</h1>
+      <h3>
+        Измените файл serialize.js так, чтобы функция serialize могла работать с
+        элементами input введенными в HTML5
+      </h3>
+      <h3>
+        Made changes in input: color, date, datetime, satetime-location, number,
+        range, search, time, url, week.
+      </h3>
+      <form>
+        <input type="color" name="color" /><br />
+        <input type="date" name="date" /><br />
+        <input type="datetime" name="datetime" /><br />
+        <input type="satetime-location" name="satetime-location" /><br />
+        <input type="number" name="number" /><br />
+        <input type="range" max="100" min="0" value="50" name="range" /><br />
+        <input type="search" name="search" /><br />
+        <input type="time" name="time" /><br />
+        <input type="url" name="url" /><br />
+        <input type="week" name="week" /><br />
+        <input type="submit" id="start" />
+      </form>
+      <p class="text-answer">перед отправкой сдвинуть ползунок</p>
+      <div class="answer-here"><p class="answer"></p></div>
+    </div>
+    <script src="script/copyserialize.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

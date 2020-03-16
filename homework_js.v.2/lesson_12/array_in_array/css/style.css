@@ -1,0 +1,40 @@
+.block{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    margin: 50px;
+}
+.black{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    bottom: 0px;
+    position: relative;
+    vertical-align: top;
+}
+.white{
+    width: 48px;
+    height: 48px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    top: 0px;
+    position: relative;
+    vertical-align: top;
+}
+.countTwelve{
+    border: 1px solid #000;
+}
+.content-text__twelve{
+    width: 200px;
+    height: 250px;
+    margin: 20px auto;
+    /* border: 1px solid #000; */
+}

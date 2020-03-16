@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+
+
+<header class="header" style="background-image: url(img/bg.png);">
+        <div class="header__inner">
+            <img src="<?php bloginfo( 'template_url' ); ?>/assets/img/home.png" alt="">
+            <div class="header__name">
+            <?php the_field('header__name') ?>
+            </div>
+            <a class="phone" href="tel: <?php the_field('phone') ?>"><?php the_field('phone') ?></a>
+            <div class="header__title">
+            <?php the_field('header__title') ?>
+            </div>
+            <div class="header__sale">
+                <img src="img/sale.png" alt="">
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+    <p class="block">------------------------------Task1.------------------------------</p>
+
+    <p class="block">Создайте button - при нажатии на него выводите alert с номером задачи.</p>
+
+    <div class="block">
+        <button id="btn__content-one" class="btn__content">Task1</button>
+    </div>
+
+    <h2 class="title">Result is in alert!</h2>
+
+    <hr>
+
+    <p class="block">------------------------------Task2.------------------------------</p>
+
+    <p class="block">Создайте input type=button - при нажатии на него выводите alert с номером задачи.</p>
+
+    <div class="block">
+        <input type="button" id="btn__content-two" class="btn__content" value="Нажать">
+    </div>
+
+    <h2 class="title">Result is in alert!</h2>
+
+    <hr>
+
+    <p class="block">------------------------------Task3.------------------------------</p>
+
+    <p class="block">Создайте p - при нажатии на него выводите alert с номером задачи.</p>
+
+    <div class="block">
+        <p id="content__click-one">Task3</p>
+    </div>
+
+    <h2 class="title">Result is in alert!</h2>
+
+    <hr>
+
+    <p class="block">------------------------------Task4.------------------------------</p>
+
+    <p class="block">Создайте input(checkbox) и button - при нажатии на него выводите true если checkbox выбран и false
+        если нет.</p>
+
+    <div class="block">
+        <input type="checkbox" id="content-three" class="btn__content"><br>
+        <button id="btn__content-three" class="btn__content">Нажать</button>
+    </div>
+
+    <h2 class="title">Result is in console!</h2>
+
+    <hr>
+
+    <p class="block">------------------------------Task5.------------------------------</p>
+
+    <p class="block">Создайте input(checkbox) и button. Добавьте value для checkbox. При нажатии на него выводите value
+        если checkbox
+        выбран и false если нет.</p>
+
+    <div class="block">
+        <input type="checkbox" id="content-four" class="btn__content" value="Вы успешно нажали"><br>
+        <button id="btn__content-four" class="btn__content">Нажать</button>
+    </div>
+
+    <h2 class="title">Result is in console!</h2>
+
+    <hr>
+
+    <p class="block">------------------------------Task6.------------------------------</p>
+
+    <p class="block">Создайте input(hidden) и button - при нажатии на него выводите alert с value прописанным в input.
+    </p>
+
+    <div class="block">
+        <input type="hidden" id="content-five" class="btn__content" value="Нажато, желательно отжать!"><br>
+        <button id="btn__content-five" class="btn__content">Нажать</button>
+    </div>
+
+    <h2 class="title">Result is in console!</h2>
+
+    <hr>
+
+    <p class="block">------------------------------Task7.------------------------------</p>
+
+    <p class="block">Создайте input(password) и button - при нажатии на него выводите alert с value прописанным в input.
+        Выводите в
+        консоль предупреждение, если длина пароля меньше 6 символов.</p>
+
+    <div class="block">
+        <input type="password" id="content-six" class="btn__content"><br>
+        <button id="btn__content-six" class="btn__content">Нажать</button>
+    </div>
+
+    <h2 class="title">Result is in alert and alert!</h2>
+
+    <hr>
+
+    <p class="block">------------------------------Task8.------------------------------</p>
+
+    <p class="block">Создайте div и кнопку. При нажатии кнопки создавайте внутри div элемент input и кнопку (innerHTML).
+        Добавьте на
+        созданную кнопку событие - при клике выводить alert c содержимым созданного input.</p>
+
+    <div class="block">
+        <button id="btn__content-seven" class="btn__content">Нажать</button>
+        <p class="content__result-one answer">result: </p>
+    </div>
+
+
+    <hr>
+
+    <p class="block">------------------------------Task9.------------------------------</p>
+
+    <p class="block">Создайте один input(radio) . и button - при нажатии на button выводите alert с value прописанным в
+        активном (если
+        он активен, если нет - то alert - false) radiobutton.</p>
+
+    <div class="block">
+        <input type="radio" class="content__seven" value="Вы успешно нажали">
+        <button id="btn__content-eight" class="btn__content">Нажать</button>
+    </div>
+
+    <h2 class="title">Result is in alert!</h2>
+
+    <hr>
+
+    <p class="block">------------------------------Task10.------------------------------</p>
+
+    <p class="block">Создайте input(color) и button - при нажатии на него окрашивайте div выбранным цветом.</p>
+
+    <div class="block block-one">
+        <input type="color" class="content__eight">
+        <button id="btn__content-nine" class="btn__content">Нажать</button>
+    </div>
+
+    <hr>
+
+    <p class="block">------------------------------Task11.------------------------------</p>
+
+    <p class="block">Создайте input(color) - два элемента и button - при нажатии на кнопку присвойте цвет из
+        первого
+        input в value
+        второго.</p>
+
+    <div class="block block-one">
+        <input type="color" class="content__nine">
+        <input type="color" class="content__ten">
+        <button id="btn__content-ten" class="btn__content">Нажать</button>
+    </div>
+
+    <hr>
+
+    <p class="block">------------------------------Task12.------------------------------</p>
+
+    <p class="block">Создайте input(date) и button - при нажатии на кнопку выводите на страницу выбранную дату.</p>
+
+    <div class="block">
+        <input type="date" class="content__eleven">
+        <button id="btn__content-eleven" class="btn__content">Нажать</button>
+        <p class="content__result-two answer">result: </p>
+    </div>
+
+    <hr>
+
+    <p class="block">------------------------------Task13.------------------------------</p>
+
+    <p class="block">Создайте input(range) и button - при нажатии на кнопку выводите на страницу значение из input.
+        Добавьте событие
+        oninput на range и тоже выводите значение на страницу.</p>
+
+    <div class="block">
+        <input type="range" class="content__twelve">
+        <button id="btn__content-twelve" class="btn__content">Нажать</button>
+        <p class="content__result-three answer">result: </p>
+    </div>
+
+    <hr>
+
+    <p class="block">------------------------------Task14.------------------------------</p>
+
+    <p class="block">Создайте text-area и button - при нажатии на кнопку выводите на страницу значение из textarea.</p>
+
+    <div class="block">
+        <textarea name="user" id="text__content-one" class="text__content" cols="30" rows="10"></textarea><br>
+        <button id="btn__content-thirteen" class="btn__content">Нажать</button>
+        <p class="content__result-four answer">result: </p>
+    </div>
+
+    <hr>
+
+    <p class="block">------------------------------Task15.------------------------------</p>
+
+    <p class="block">Создайте text-area, input и button - при нажатии на кнопку выводите текс из input в textarea и на
+        страницу.</p>
+
+    <div class="block">
+        <textarea name="user" id="text__content-two" class="text__content" cols="30" rows="10"></textarea><br>
+        <input type="text" class="content__five"><br>
+        <button id="btn__content-fourteen" class="btn__content">Нажать</button>
+        <p class="content__result-five answer">result: </p>
+    </div>
+
+    <hr>
+
+    <p class="block">------------------------------Task16.------------------------------</p>
+
+    <p class="block">Создайте select и button - при нажатии на кнопку выводите на страницу value выбраннов в select
+        option.</p>
+
+    <div class="block">
+        <select id="content__select-one">
+            <option value="one">Number one</option>
+            <option value="two">Number two</option>
+            <option value="three">Number three</option>
+        </select>
+        <button id="btn__content-fiveteen" class="btn__content">Нажать</button>
+        <p class="content__result-six answer">result: </p>
+    </div>
+
+    <hr>
+
+    <p class="block">------------------------------Task17.------------------------------</p>
+
+    <p class="block">Создайте select и button - при нажатии на кнопку выводите на страницу текст выбраннов в select
+        option.</p>
+
+    <div class="block">
+        <select id="content__select-two">
+            <option value="one">Number one</option>
+            <option value="two">Number two</option>
+            <option value="three">Number three</option>
+        </select>
+        <button id="btn__content-sixteen" class="btn__content">Нажать</button>
+        <p class="content__result-seven answer">result: </p>
+    </div>
+
+    <hr>
+
+    <p class="block">------------------------------Task18.------------------------------</p>
+
+    <p class="block">Создайте select добавьте на него событие onchange. По данному событию выводите value выбранного
+        option на
+        страницу.</p>
+
+    <div class="block">
+        <select id="content__select-three">
+            <option value="one">Number one</option>
+            <option value="two">Number two</option>
+            <option value="three">Number three</option>
+        </select>
+        <p class="content__result-eight answer">result: </p>
+    </div>
+
+    <hr>
+
+    <p class="block">------------------------------Task19.------------------------------</p>
+
+    <p class="block">Создайте форму. В ней input(text) и input(password) - и кнопку. По нажатию кнопки выводите значение
+        text и
+        password в консоль!.</p>
+
+    <div class="block">
+        <input type="text" class="content__loginone"><br>
+        <input type="password" class="content__passwordone"><br>
+        <button id="btn__content-seventeen" class="btn__content">Нажать</button>
+    </div>
+
+    <hr>
+
+    <p class="block">------------------------------Task20.------------------------------</p>
+
+    <p class="block">Создайте форму. В ней input(text) и input(password) - и кнопку. По нажатию кнопки выводите значение
+        text и
+        password в консоль! Используйте form.elements</p>
+
+    <div class="block">
+        <input type="text" class="content__logintwo"><br>
+        <input type="password" class="content__passwordtwo"><br>
+        <button id="btn__content-eighteen" class="btn__content">Нажать</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

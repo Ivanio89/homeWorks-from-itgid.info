@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/window.css" />
+    <link rel="stylesheet" href="style/ruls.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="modal-wrap hide" data-modal="#show">
+      <div class="modal-window hide" id="show">
+        <h1>window</h1>
+        <button class="window-close" data-modal="#show">close</button>
+        <button class="window-close_x" data-modal="#show">X</button>
+
+        <div class="block">
+          <div class="form-block">
+            <div class="rules"><span class="text-rules">rules</span></div>
+            <div class="back">
+              <span class="text-back">back</span>
+              <p class="text-back_lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                repellendus corrupti quisquam odit deleniti. Modi nostrum maxime
+                aperiam. Quas ad reiciendis itaque sequi repudiandae provident
+                nesciunt praesentium! Laboriosam, itaque sunt.
+              </p>
+              <p class="text-back_lorem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                repellendus corrupti quisquam odit deleniti. Modi nostrum maxime
+                aperiam. Quas ad reiciendis itaque sequi repudiandae provident
+                nesciunt praesentium! Laboriosam, itaque sunt.
+              </p>
+              <p class="text-back">back</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <button class="window-show" data-modal="#show">show</button>
+    </div>
+
+    <script src="script/show.js"></script>
+    <script src="script/slider.js"></script>
+  </body>
+</html>

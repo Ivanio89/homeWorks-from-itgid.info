@@ -1,0 +1,18 @@
+.block{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.title{
+    text-align: center;
+    margin: 50px;
+}
+
+.block-list{
+    margin-left: 350px;
+}
+
+button{
+    margin: 5px;
+}

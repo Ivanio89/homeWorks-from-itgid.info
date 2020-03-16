@@ -1,0 +1,10 @@
+.block{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    margin: 50px;
+    word-wrap: break-word;
+}

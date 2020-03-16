@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 50px auto;
+  width: 500px;
+}
+
+.container,
+.answer,
+.text,
+.content-answer {
+  text-align: center;
+}
+
+p,
+.text {
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.text {
+  margin: 20px auto;
+  width: 400px;
+  word-wrap: break-word;
+}
+
+.btn-answer {
+  padding: 20px 30px;
+  background-color: rgb(1, 128, 106);
+  color: #fff;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+.number-mult {
+  padding: 5px 5px;
+  width: 50px;
+  font-size: 30px;
+  margin: 20px;
+}
+
+button {
+  margin: 20px;
+}
+
+.red-warning {
+  color: red;
+}

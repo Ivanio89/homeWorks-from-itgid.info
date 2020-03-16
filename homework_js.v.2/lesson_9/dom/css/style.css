@@ -1,0 +1,19 @@
+.block{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto; 
+    padding: 10px;
+}
+.title{
+    text-align: center;
+    margin: 50px;
+}
+
+.css-1{
+    background-color: green;
+    
+}
+
+.css-2{
+    color: #efefef99;
+}

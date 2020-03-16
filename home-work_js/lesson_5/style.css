@@ -1,0 +1,64 @@
+div{
+	margin: 20px;
+}
+
+input{
+	width: 10%;
+	display: block;
+	margin: 10px auto;
+	outline: none;
+}
+
+button{
+	display: block;
+	border-radius: 5px;
+	width: 10%;
+	height: 40px;
+	margin: 10px auto;
+	outline: none;
+}
+
+.text-range{
+	width: 90%;
+	height: 150px;
+	border: 1px solid #fff;
+	margin: 0 auto;
+}
+
+#pixsels-size p{
+	width: 100px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+.pixsels-size{
+	width: 150px;
+	height: 100px;
+	margin: 20px 46%;
+}
+
+.text-rgb{
+	position: relative;
+	margin: 22px 50% 0; 
+}
+
+#block-rgb{
+	margin:60px auto;
+	width: 1000px;
+	height: 200px;
+	border: 1px solid #EEE;
+	background-color: #fff;
+}
+
+.myemail{
+	margin: 50px 0 0 70%;
+	opacity: 0.5;
+	font-size: 16px;
+}
+
+
+
+
+
+
+

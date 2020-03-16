@@ -1,0 +1,14 @@
+.block{
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+}
+.title{
+    text-align: center;
+    margin: 50px;
+}
+
+.add-too{
+    margin: 10px;
+    text-transform: uppercase;
+}
